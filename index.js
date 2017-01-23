@@ -17,7 +17,7 @@ app.get('/', function (request, response) {
 
 app.post('/', upload.single('uploadedFile'), function (request, response) {
   if (request.file) {
-    response.setHeader('Content-Type: application/json')
+    //response.setHeader('Content-Type: application/json')
     response.send({
       size: request.file.size
     });
