@@ -10,7 +10,8 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "4.14.0"
+    "express": "4.14.0",
+    "multer": "1.2.1"
   },
   "repository": {
     "type": "git",
