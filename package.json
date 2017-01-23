@@ -1,5 +1,5 @@
 {
-  "name": "node-js-getting-started",
+  "name": "node-js-microservice-metadata",
   "version": "0.2.5",
   "description": "A sample Node.js app using Express 4",
   "engines": {
@@ -9,10 +9,12 @@
   "scripts": {
     "start": "node index.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "express": "4.14.0"
+  },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/jacebenson/fcc-microservice-timestamp"
+    "url": "https://gitlab.com/jacebenson/fcc-microservice-metadata"
   },
   "keywords": [
     "node",
